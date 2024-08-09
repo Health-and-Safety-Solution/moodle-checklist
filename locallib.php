@@ -1644,7 +1644,8 @@ class checklist_class {
                 }
                 if ($colkey == 0) {
                     // First item is the name.
-                    $output .= '<td style=" text-align: left; width: '.$table->size[0].';" class="cell c0">'.$item.'</td>';
+                    //$output .= '<td style=" text-align: left; width: '.$table->size[0].';" class="cell c0">'.$item.'</td>';
+                    $output .= '<th style=" text-align: left; width: '.$table->size[0].'; position: sticky; left: 0;" class="cell c0">'.$item.'</th>';
                 } else {
                     $size = $table->size[$colkey];
                     $img = '&nbsp;';
